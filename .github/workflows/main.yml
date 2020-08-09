@@ -6,7 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@V1
       - name: Hello world action
-        run: echo Hello, world
-      - uses: ./action-a
+        uses: ./action-a
         with: 
           MY_NAME: "Mona" #Configured the error
