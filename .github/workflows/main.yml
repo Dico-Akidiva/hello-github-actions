@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@V1
+        
       - name: Hello world action
         uses: ./action-a
         with: 
